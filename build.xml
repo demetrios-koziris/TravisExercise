@@ -53,7 +53,7 @@
 
 	<target name="runjar" depends="link">
 		<java jar="${jardir}/DiscountStrategy.jar" fork="true">
-			<arg value="2"/>
+			<arg value="1"/>
 			<arg value="100"/>
 		</java>
 	</target>

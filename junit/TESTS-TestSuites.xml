@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="2" hostname="Aperture" id="0" name="OrderTestPercentDiscount" package="test" skipped="0" tests="11" time="0.399" timestamp="2015-11-19T04:10:14">
+  <testsuite errors="0" failures="2" hostname="Aperture" id="0" name="OrderTestPercentDiscount" package="test" skipped="0" tests="11" time="0.056" timestamp="2015-11-19T04:44:41">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -156,7 +156,7 @@
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestPercentDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit\TEST-test.OrderTestPercentDiscount.xml crashfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junitvmwatcher3384719729232116401.properties propsfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit1878685815724368751.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestPercentDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit\TEST-test.OrderTestPercentDiscount.xml crashfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junitvmwatcher1383688932152904767.properties propsfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit5256639599612805362.properties" />
 
           <property name="java.class.path" value="C:\Users\Demetrios\Documents\GitHub\TravisExercise\build;C:\Users\Demetrios\Documents\GitHub\TravisExercise\lib\org.junit_4.11.0.v201303080030\junit.jar;C:\Users\Demetrios\Documents\GitHub\TravisExercise\lib\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-junit.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-junit4.jar" />
 
@@ -248,13 +248,13 @@
 
       <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest2" time="0.0" />
 
-      <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest3" time="0.0" />
+      <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest3" time="0.001" />
 
       <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest4" time="0.0" />
 
       <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest5" time="0.0" />
 
-      <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest6" time="0.004">
+      <testcase classname="test.OrderTestPercentDiscount" name="percentageDiscountTest6" time="0.003">
           <failure message="expected:&lt;444.0&gt; but was:&lt;4884.0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;444.0&gt; but was:&lt;4884.0&gt;
 	at test.OrderTestPercentDiscount.percentageDiscountTest6(Unknown Source)
 </failure>
@@ -277,7 +277,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Aperture" id="1" name="OrderTestRandomDiscount" package="test" skipped="0" tests="1" time="0.048" timestamp="2015-11-19T04:10:14">
+  <testsuite errors="0" failures="0" hostname="Aperture" id="1" name="OrderTestRandomDiscount" package="test" skipped="0" tests="1" time="0.047" timestamp="2015-11-19T04:44:41">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -433,7 +433,7 @@
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestRandomDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit\TEST-test.OrderTestRandomDiscount.xml crashfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junitvmwatcher5460799001813714212.properties propsfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit1400839336183561682.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestRandomDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit\TEST-test.OrderTestRandomDiscount.xml crashfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junitvmwatcher150915950694541226.properties propsfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit7601956988489048306.properties" />
 
           <property name="java.class.path" value="C:\Users\Demetrios\Documents\GitHub\TravisExercise\build;C:\Users\Demetrios\Documents\GitHub\TravisExercise\lib\org.junit_4.11.0.v201303080030\junit.jar;C:\Users\Demetrios\Documents\GitHub\TravisExercise\lib\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-junit.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-junit4.jar" />
 
@@ -517,14 +517,14 @@
 
       </properties>
 
-      <testcase classname="test.OrderTestRandomDiscount" name="randomDiscountTest1" time="0.002" />
+      <testcase classname="test.OrderTestRandomDiscount" name="randomDiscountTest1" time="0.003" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="2" hostname="Aperture" id="2" name="OrderTestStoreCreditDiscount" package="test" skipped="0" tests="11" time="0.065" timestamp="2015-11-19T04:10:15">
+  <testsuite errors="0" failures="2" hostname="Aperture" id="2" name="OrderTestStoreCreditDiscount" package="test" skipped="0" tests="11" time="0.057" timestamp="2015-11-19T04:44:41">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -680,7 +680,7 @@
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestStoreCreditDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit\TEST-test.OrderTestStoreCreditDiscount.xml crashfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junitvmwatcher4378803921980308826.properties propsfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit115959540540594267.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestStoreCreditDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit\TEST-test.OrderTestStoreCreditDiscount.xml crashfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junitvmwatcher1569976382282170935.properties propsfile=C:\Users\Demetrios\Documents\GitHub\TravisExercise\junit1481867609918493947.properties" />
 
           <property name="java.class.path" value="C:\Users\Demetrios\Documents\GitHub\TravisExercise\build;C:\Users\Demetrios\Documents\GitHub\TravisExercise\lib\org.junit_4.11.0.v201303080030\junit.jar;C:\Users\Demetrios\Documents\GitHub\TravisExercise\lib\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Program Files\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-junit.jar;C:\Program Files\apache-ant-1.9.6\lib\ant-junit4.jar" />
 
@@ -766,7 +766,7 @@
 
       <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest10" time="0.001" />
 
-      <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest11" time="0.001" />
+      <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest11" time="0.0" />
 
       <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest1" time="0.0" />
 
@@ -778,7 +778,7 @@
 
       <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest5" time="0.0" />
 
-      <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest6" time="0.003">
+      <testcase classname="test.OrderTestStoreCreditDiscount" name="creditDiscountTest6" time="0.004">
           <failure message="expected:&lt;444.0&gt; but was:&lt;1444.0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;444.0&gt; but was:&lt;1444.0&gt;
 	at test.OrderTestStoreCreditDiscount.creditDiscountTest6(Unknown Source)
 </failure>

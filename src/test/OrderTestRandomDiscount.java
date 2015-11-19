@@ -10,6 +10,9 @@ import discount.RandomDiscountStrategy;
 
 public class OrderTestRandomDiscount {
 
+
+	//test that the random discount does not apply discounts of less than 0% or greater than 100%
+
 	@Test
 	public void randomDiscountTest1() {
 
