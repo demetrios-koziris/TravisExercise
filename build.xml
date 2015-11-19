@@ -70,11 +70,13 @@
 	</target>
 
 
-	<target name="test">
+	<target name="test" depends="compile">
 		<mkdir dir="${junit.output.dir}"/>
 		<junit fork="yes" printsummary="withOutAndErr">
 			<formatter type="xml"/>
-			<test name="test.OrderTest" todir="${junit.output.dir}"/>
+			<test name="test.OrderTestRandomDiscount" todir="${junit.output.dir}"/>
+			<test name="test.OrderTestPercentDiscount" todir="${junit.output.dir}"/>
+			<test name="test.OrderTestStoreCreditDiscount" todir="${junit.output.dir}"/>
 			<classpath refid="TravisExercise.classpath"/>
 		</junit>
 		<junitreport todir="${junit.output.dir}">

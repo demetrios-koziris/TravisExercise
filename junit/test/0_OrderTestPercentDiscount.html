@@ -1,13 +1,13 @@
 <html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Unit Test Results: test.OrderTest</title>
+<title>Unit Test Results: test.OrderTestPercentDiscount</title>
 <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
 <script type="text/javascript" language="JavaScript">
         var TestCases = new Array();
         var cur;
         
-    cur = TestCases['test.OrderTest'] = new Array();
+    cur = TestCases['test.OrderTestPercentDiscount'] = new Array();
     
         cur['ant.core.lib'] = 'C:\\Program Files\\apache-ant-1.9.6\\lib\\ant.jar';
     
@@ -46,6 +46,8 @@
         cur['env._USE_CLASSPATH'] = 'no';
     
         cur['env.=C:'] = 'C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise';
+    
+        cur['env.=ExitCode'] = '00000001';
     
         cur['env.ALLUSERSPROFILE'] = 'C:\\ProgramData';
     
@@ -213,7 +215,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise\\junit\\TEST-test.OrderTest.xml crashfile=C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise\\junitvmwatcher4634859552748181892.properties propsfile=C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise\\junit9043406142813232205.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTestPercentDiscount skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise\\junit\\TEST-test.OrderTestPercentDiscount.xml crashfile=C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise\\junitvmwatcher3384719729232116401.properties propsfile=C:\\Users\\Demetrios\\Documents\\GitHub\\TravisExercise\\junit1878685815724368751.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -280,13 +282,13 @@
 </tr>
 </table>
 <hr size="1">
-<h3>Class test.OrderTest</h3>
+<h3>Class test.OrderTestPercentDiscount</h3>
 <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
 <tr valign="top">
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
-<tr valign="top" class="Pass">
-<td><a title="Display all tests" href="0_OrderTest.html">OrderTest</a></td><td><a title="Display all tests" href="0_OrderTest.html">1</a></td><td>0</td><td>0</td><td>0</td><td>0.050</td><td>2015-11-19T01:59:04</td><td>Aperture</td>
+<tr valign="top" class="Failure">
+<td><a title="Display all tests" href="0_OrderTestPercentDiscount.html">OrderTestPercentDiscount</a></td><td><a title="Display all tests" href="0_OrderTestPercentDiscount.html">11</a></td><td>0</td><td><a title="Display only failures" href="0_OrderTestPercentDiscount-fails.html">2</a></td><td>0</td><td>0.399</td><td>2015-11-19T04:10:14</td><td>Aperture</td>
 </tr>
 </table>
 <h2>Tests</h2>
@@ -295,11 +297,47 @@
 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
 <tr valign="top" class="TableRowColor">
-<td><a name="percentageDiscountTest"></a>percentageDiscountTest</td><td>Success</td><td></td><td>0.002</td>
+<td><a name="percentageDiscountTest10"></a>percentageDiscountTest10</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest11"></a>percentageDiscountTest11</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest1"></a>percentageDiscountTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest2"></a>percentageDiscountTest2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest3"></a>percentageDiscountTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest4"></a>percentageDiscountTest4</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest5"></a>percentageDiscountTest5</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a name="percentageDiscountTest6"></a>percentageDiscountTest6</td><td>Failure</td><td>expected:&lt;444.0&gt; but was:&lt;4884.0&gt;<br>
+<br>
+<code>junit.framework.AssertionFailedError: expected:&lt;444.0&gt; but was:&lt;4884.0&gt;<br>		at test.OrderTestPercentDiscount.percentageDiscountTest6(Unknown Source)<br>
+</code></td><td>0.004</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a name="percentageDiscountTest7"></a>percentageDiscountTest7</td><td>Failure</td><td>expected:&lt;0.0&gt; but was:&lt;-3996.0&gt;<br>
+<br>
+<code>junit.framework.AssertionFailedError: expected:&lt;0.0&gt; but was:&lt;-3996.0&gt;<br>	at test.OrderTestPercentDiscount.percentageDiscountTest7(Unknown Source)<br>
+</code></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest8"></a>percentageDiscountTest8</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="percentageDiscountTest9"></a>percentageDiscountTest9</td><td>Success</td><td></td><td>0.000</td>
 </tr>
 </table>
 <div class="Properties">
-<a href="javascript:displayProperties('test.OrderTest');">
+<a href="javascript:displayProperties('test.OrderTestPercentDiscount');">
                     Properties &raquo;
                 </a>
 </div>
