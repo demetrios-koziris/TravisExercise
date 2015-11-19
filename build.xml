@@ -27,7 +27,7 @@
 	</target>
 
 
-	<target name="init">
+	<target name="init" depends="clean">
 		<mkdir dir="${blddir}" />
 		<mkdir dir="${classdir}" />
 	</target>
@@ -45,7 +45,7 @@
 		<mkdir dir="${jardir}"/>
 		<jar destfile="${jardir}/DiscountStrategy.jar" basedir="${classdir}">
 			<manifest>
-				<attribute name="Main-Class" value="Demo" />
+				<attribute name="Main-Class" value="discount.Demo" />
 			</manifest>
 		</jar>
 	</target>
@@ -60,7 +60,7 @@
 
 
 	<target name="run" depends="compile">
-		<java classname="Demo" fork="true">
+		<java classname="discount.Demo" fork="true">
 			<classpath>
 				<path location="${classdir}" />
 			</classpath>
